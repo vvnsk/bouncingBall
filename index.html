@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title> Game </title>
+		<script type="text/javascript" src="phaser.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+        <style>
+            img{
+                border:1px solid red;
+                position:absolute;
+                top: 45px;
+                left: 613px;
+            }
+        </style>
+	</head>
+
+	<body>
+        <div style="margin:0 auto;width:1024px;position:relative;text-align:center">
+            <p>Use the arrow keys to move the paddle and destroy the bricks</p>
+            <img src="assets/pause.png" onclick="game.paused=!game.paused"/>
+            <div id="gameDiv" style="margin:0 auto;width:500px"> </div>
+        </div>
+	</body>
+
+</html>
